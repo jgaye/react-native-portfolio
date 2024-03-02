@@ -1,17 +1,17 @@
-import 'react-native-gesture-handler';
+import React from 'react';
+import { Text, View } from 'react-native';
 
-import { ThemeProvider } from '@shopify/restyle';
-import { Amplify } from 'aws-amplify';
-import { theme } from 'theme';
-
-import amplifyconfig from './src/amplifyconfiguration.json';
-import RootStack from './src/navigation';
-Amplify.configure(amplifyconfig);
-
-export default function App() {
+const YourApp = () => {
   return (
-    <ThemeProvider theme={theme}>
-      <RootStack />
-    </ThemeProvider>
+    <View
+      style={{
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+      }}>
+      <Text>Hello world! 🎉</Text>
+    </View>
   );
-}
+};
+
+export default YourApp;
