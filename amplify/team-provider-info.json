@@ -17,9 +17,6 @@
           "appId": "d38pyw2u8yf454",
           "type": "cicd"
         }
-      },
-      "api": {
-        "reactnativeportfolio": {}
       }
     }
   }
