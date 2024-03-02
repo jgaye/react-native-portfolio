@@ -8,6 +8,7 @@ export default function TabOneScreen() {
   return (
     <Box flex={1} alignItems="center" justifyContent="center">
       <Text variant="title">Tab One</Text>
+      <Text variant="title">Hello, it's the portfolio</Text>
       <Box style={styles.separator} />
       <EditScreenInfo path="src/screens/one.tsx" />
     </Box>
