@@ -10,6 +10,14 @@
       "StackName": "amplify-reactnativeportfolio-dev-202508",
       "StackId": "arn:aws:cloudformation:us-east-1:088066051964:stack/amplify-reactnativeportfolio-dev-202508/b56b3da0-d833-11ee-ba40-0e0c14255f0d",
       "AmplifyAppId": "d38pyw2u8yf454"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d38pyw2u8yf454",
+          "type": "cicd"
+        }
+      }
     }
   }
 }

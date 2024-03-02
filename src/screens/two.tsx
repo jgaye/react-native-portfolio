@@ -8,6 +8,7 @@ export default function TabTwoScreen() {
   return (
     <Box flex={1} alignItems="center" justifyContent="center">
       <Text variant="title">Tab Two</Text>
+      <Text variant="title">This should be deployed on AWS Amplify</Text>
       <Box style={styles.separator} />
       <EditScreenInfo path="src/screens/two.tsx" />
     </Box>
